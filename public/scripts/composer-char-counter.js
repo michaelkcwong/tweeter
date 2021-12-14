@@ -10,6 +10,12 @@ $("#tweet-text").on("input", function(event) {
   let remainingChars = totalChars - counter;
 
   $(".counter").val(`${remainingChars}`);
+
+  if (remainingChars < 0) {
+    $(".counter").addClass("negative-counter");
+  } else {
+    $(".counter").removeClass("negative-counter");
+  }
 })
 
 });
