@@ -1,1 +1,14 @@
+.tweet-display {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid aqua;
+}
 
+.tweet-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-element {
+  border: 2px solid black;
+}
