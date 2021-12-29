@@ -1,14 +1,27 @@
 .tweet-display {
   display: flex;
   flex-direction: column;
-  border: 2px solid aqua;
+  border: 5px solid black;
 }
 
-.tweet-layout {
+.article-header-layout {
   display: flex;
   justify-content: space-between;
 }
 
+.article-footer-layout {
+  display: flex;
+  justify-content: space-between;
+  border-top: 5px solid black;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .box-element {
-  border: 2px solid black;
+  border: 2px solid violet;
+}
+
+.tweet-text {
+  margin-right: 10px;
+  margin-left: 10px;
 }
