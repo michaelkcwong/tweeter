@@ -33,7 +33,7 @@
 
 .button-div {
   /* border: 2px solid hotpink; */
-  border-top: 5px solid black;;
+  border-top: 3px solid black;;
   display: flex;
   justify-content: space-between;
   font-family: 'Bungee', cursive;
