@@ -1,7 +1,8 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
+  top: 0;
   background-color: #4056A1;
   color: #FFFFFF;
   block-size: 120px;
