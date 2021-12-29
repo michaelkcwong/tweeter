@@ -19,6 +19,10 @@
   border: 2px solid blue;
 }
 
+.negative-counter {
+  color: red;
+}
+
 #tweet-text {
   /* border: 2px solid hotpink; */
   border: none;
