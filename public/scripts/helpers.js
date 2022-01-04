@@ -1,4 +1,4 @@
-const sanitize = function (str) {
+const escape = function (str) {
   let div = document.createElement("div");
   div.appendChild(document.createTextNode(str));
   return div.innerHTML;
@@ -19,7 +19,7 @@ function createTweetElement(tweetData) {
           ${tweetData.user.handle}
         </div>
       </header>
-      <p class="tweet-text">${sanitize(tweetData.content.text)}</p>
+      <p class="tweet-text">${escape(tweetData.content.text)}</p>
   
       <footer class="article-footer-layout">
         <div class="box-element">
