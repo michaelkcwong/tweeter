@@ -25,6 +25,13 @@ $(document).ready(function() {
     }).then(response => {
       console.log("Successfully posted to the server using Ajax.");
 
+      $.ajax({
+        type: "GET",
+        url: "http://localhost:8080/tweets",
+      }).then(response => {
+        const tweet = createTweetElement(response[response.length - 1]);
+        $(".container").append(tweet);
+      })
 
     });
   });
