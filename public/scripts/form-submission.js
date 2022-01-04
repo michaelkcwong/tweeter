@@ -1,5 +1,3 @@
-const { text } = require("body-parser");
-
 $(document).ready(function() {
 
   $(".tweet-form").submit(function(event) {
@@ -32,7 +30,6 @@ $(document).ready(function() {
         const tweet = createTweetElement(response[response.length - 1]);
         $(".container").append(tweet);
       })
-
     });
   });
   });
