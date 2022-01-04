@@ -25,7 +25,7 @@ $(document).ready(function() {
     
         <footer class="article-footer-layout">
           <div class="box-element">
-            ${tweetData.created_at}
+            ${timeago.format(tweetData.created_at)}
           </div>
           <div class="article-bottom-right">
             <div id="flag">
@@ -64,3 +64,4 @@ function loadTweets() {
 loadTweets();
 
 });
+
