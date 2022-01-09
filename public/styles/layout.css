@@ -36,3 +36,45 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ @media only screen and (max-width: 1023px) {
+  /* .nav-bar {
+    border: 10px solid red;
+    background-color: #ffebcd; 
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  } */
+
+  .new-tweet {
+    margin-top: 50px;
+  }
+
+ }
+
+ @media only screen and (min-width:1024px) {
+
+  body {
+    display: flex;
+  }
+
+  .header {
+    margin-top: 200px;
+  }
+
+  .header-body {
+    width: 40vw;
+  }
+
+  .main-div {
+    width: 60vw;
+    margin-top: 200px;
+  }
+
+  .nav-bar {
+    border: 10px solid violet;
+    background-color: #4056A1;
+    color: #FFFFFF;
+    /* background-color: #ffebcd; 
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png"); */
+  }
+
+ };
