@@ -18,7 +18,6 @@
 }
 
 #tweet-text {
-  /* border: 2px solid hotpink; */
   border: none;
   width: 100%;
   background-color: #f4f1ec;
@@ -26,7 +25,6 @@
 }
 
 .button-div {
-  /* border: 2px solid hotpink; */
   border-top: 3px solid black;;
   display: flex;
   justify-content: space-between;

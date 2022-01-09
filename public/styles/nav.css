@@ -18,8 +18,9 @@
 }
 
 .right-nav {
+  display: flex;
+  align-items: flex-end;
   padding-right: 1.5em;
-  padding-top: 58px;
 }
 
 .nav-prompt {

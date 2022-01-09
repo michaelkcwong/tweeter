@@ -30,6 +30,11 @@
 }
 
 .article-top-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
   color: #c8cde3;
 }
 
