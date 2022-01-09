@@ -51,7 +51,9 @@ $(document).ready(function() {
         url: "http://localhost:8080/tweets",
       }).then(response => {
         const tweet = createTweetElement(response[response.length - 1]);
-        $(".container").append(tweet);
+        $(".new-tweet").after(tweet);
+        $("#tweet-text").val("");
+        $(".counter").val(140);
       })
     });
   });
