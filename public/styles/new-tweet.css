@@ -1,22 +1,16 @@
-.new-tweet {
-  border: 2px solid blue;
+#error_msg {
+  color: red;
+  font-weight: 700;
 }
 
 .tweet-form {
-  border: 2px solid aqua;
   display: flex;
   flex-direction: column;
 }
 
 .tweet-button {
-  border: 2px solid blue;
   color: white;
   background-color: #4056A1;
-
-}
-
-.counter {
-  border: 2px solid blue;
 }
 
 .negative-counter {

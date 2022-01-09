@@ -21,20 +21,22 @@
   margin-left: 10px;
 }
 
-.box-element {
-  border: 2px solid violet;
+.article-top-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
 }
 
 .article-top-right {
   color: #c8cde3;
-  border: 2px solid violet;
 }
 
 .article-bottom-right {
   display: flex;
   width: 150px;
   justify-content: space-evenly;
-  border: 2px solid violet;
   color: #4056A1
 }
 

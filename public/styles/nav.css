@@ -13,7 +13,6 @@
   font-family: 'Bungee', cursive;
   padding-left: 1.5em;
   font-size: 40px;
-  border: 2px solid #FFFFFF;
   padding-bottom: 20px;
 
 }
@@ -21,17 +20,14 @@
 .right-nav {
   padding-right: 1.5em;
   padding-top: 58px;
-  border: 2px solid #FFFFFF;
 }
 
 .nav-prompt {
   display: block;
-  border: 2px solid #FFFFFF;
 }
 
 .nav-logo {
   display: block;
   text-align: center;
   color: #ed3c1f;
-  border: 2px solid #FFFFFF;
 }

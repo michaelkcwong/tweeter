@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  border: 2px solid rgb(0, 255, 76);
   position: relative;
   height: 520px;
   background-color:#ffebcd;
@@ -16,20 +15,5 @@
   justify-content: center;
   align-items: center;
   height: 400px;
-  border: 2px solid yellow;
 
 }
-
-.avatar-image {
-  border: 2px solid #000;
-}
-
-.header-avatar-name {
-  /* display:flex; */
-  /* align-items: flex-end; */
-  border: 2px solid #000;
-}
-
-.name {
-  border: 2px solid red;
-} 
