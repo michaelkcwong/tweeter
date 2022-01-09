@@ -13,6 +13,10 @@
   background-color: #4056A1;
 }
 
+.tweet-button:hover {
+  box-shadow: 5px 5px #c9cbdf;
+}
+
 .negative-counter {
   color: red;
 }
