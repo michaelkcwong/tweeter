@@ -12,7 +12,11 @@ Tweeter is a simple, single-page Twitter clone. where users can create short pos
 
 ## Screenshots
 
+Desktop View
+
 !["tweeter-desktop-version"](https://github.com/michaelkcwong/tweeter/blob/master/docs/tweets.desktop.png)
+
+Mobile View
 
 !["tweeter-mobile-version"](https://github.com/michaelkcwong/tweeter/blob/master/docs/tweets.mobile.png)
 
