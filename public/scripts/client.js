@@ -6,7 +6,7 @@ function loadTweets() {
     type: "GET",
     url: "http://localhost:8080/tweets",
   }).then(response => {
-    renderTweets(response);
+    renderTweets(response.reverse());
   })
 };
 
